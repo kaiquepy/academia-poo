@@ -46,5 +46,10 @@ public class Aula {
     public void setVagasDisponiveis(String vagasDisponiveis) {
         this.vagasDisponiveis = vagasDisponiveis;
     }
+@Override
+public String toString() {
+        return "Aula [Id: " + id + ", nome: " + nome + ", professor: " + professor + ", horario: " + horario + 
+                ", vagas disponiveis: " + vagasDisponiveis + "]";
+    }
 }
 

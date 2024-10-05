@@ -28,4 +28,9 @@ public class Receita {
     public void setData(String data) {
         this.data = data;
     }
+@Override
+public String toString() {
+        return "Despesa [Tipo: " + tipo + 
+               ", Valor: " + valor + ", data: " + data + "]";
+    }
 }

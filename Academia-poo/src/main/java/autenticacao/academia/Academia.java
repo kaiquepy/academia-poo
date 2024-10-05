@@ -1,13 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package autenticacao.academia;
 
-/**
- *
- * @author kayky
- */
+import java.util.ArrayList;
+
 public class Academia {
+    private String nome;
+    private ArrayList<Funcionario> funcionarios = new ArrayList();
+
+    public Academia(String nome) {
+        this.nome = nome;
+    }
     
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+@Override
+    public String toString() {
+        return "Academia [Nome: " + nome + "]";
+    }
 }
+
+

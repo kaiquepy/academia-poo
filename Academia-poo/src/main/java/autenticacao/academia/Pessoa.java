@@ -6,7 +6,7 @@ public abstract class Pessoa {
     private String telefone;
     private String email;
     private String endereco;
-    
+
     public Pessoa(String nome, String cpf) {
         this.nome = nome;
         this.cpf = cpf;
@@ -52,9 +52,10 @@ public abstract class Pessoa {
         this.endereco = endereco;
     }
 
-    @Override
+@Override
     public String toString() {
-        return "Pessoa{" + "nome=" + nome + ", cpf=" + cpf + '}';
+        return "Pessoa [Nome: " + nome + ", CPF: " + cpf + ", Telefone: " + telefone + 
+               ", Email: " + email + ", Endereço: " + endereco + "]";
     }
 }
 

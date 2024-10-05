@@ -19,4 +19,10 @@ public class Aluno {
     public void setSaldoDevedor(double saldoDevedor) {
         this.saldoDevedor = saldoDevedor;
     }
+@Override
+public String toString() {
+        return "Aluno [Plano: " + plano + 
+               ", Saldo Devedor: " + saldoDevedor + "]";
 }
+}
+

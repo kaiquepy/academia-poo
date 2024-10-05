@@ -21,4 +21,9 @@ public class GerenciamentoFinanceiro {
     public void setDespesas(List<Despesa> despesas) {
         this.despesas = despesas;
     }
+@Override
+public String toString() {
+        return "GerenciamentoFinanceiro [Receitas: " + receitas + 
+               ", Despesas: " + despesas + "]";
+    }
 }

@@ -21,5 +21,10 @@ public class Professor {
     public void setHorarioDisponivel(List<String> horarioDisponivel) {
         this.horarioDisponivel = horarioDisponivel;
     }
+@Override
+public String toString() {
+        return "Professor [Especialidade: " + especialidade + 
+               ", HorarioDisponivel: " + horarioDisponivel + "]";
+}
 }
 
