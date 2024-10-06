@@ -1,4 +1,4 @@
-package classes.academia;
+package atores.academia;
 
 public class Aluno {
     private String plano;

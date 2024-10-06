@@ -1,4 +1,4 @@
-package autenticacao.academia;
+package atores.academia;
 
 public abstract class Pessoa {
     private String nome;

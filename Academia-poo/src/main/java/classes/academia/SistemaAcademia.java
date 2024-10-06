@@ -1,5 +1,7 @@
 package classes.academia;
 
+import atores.academia.Professor;
+import atores.academia.Aluno;
 import java.util.List;
 
 public class SistemaAcademia {
@@ -62,6 +64,6 @@ public String toString() {
         return "SistemaAcademia [Alunos: " + alunos + 
                ", Professores: " + professores + ", Aulas: " + aulas + 
                 ", Despesas: " + despesas + ", Receitas: " + receitas + "]";
-}
+    }
 }
 

@@ -1,16 +1,15 @@
-package autenticacao.academia;
-        
+package atores.academia;
+
 public class Funcionario extends Pessoa {
     private String usuario;
     private String senha;
-    
 
     public Funcionario(String nome, String cpf, String usuario, String senha) {
         super(nome, cpf);
         this.usuario = usuario;
         this.senha = senha;
     }
-    
+
     public String getUsuario() {
         return usuario;
     }
@@ -27,8 +26,9 @@ public class Funcionario extends Pessoa {
         this.senha = senha;
     }
 @Override
-    public String toString() {
-        return "Funcionário [Nome: " + getNome() + ", CPF: " + getCpf() + ", Usuário: " + usuario + "]";
-    }
+public String toString() {
+        return "Funcionario [Usuario: " + usuario + 
+               ", Senha: " + senha + "]";
+}
 }
 

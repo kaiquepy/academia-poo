@@ -1,12 +1,13 @@
-package classes.academia;
+package atores.academia;
 
 import java.util.List;
 
-public class Professor {
+public class Professor extends Pessoa {
     private String especialidade;
     private List<String> horarioDisponivel;
 
-    public Professor(String especialidade, List<String> horarioDisponivel) {
+    public Professor(String nome, String cpf, String especialidade, List<String> horarioDisponivel) {
+        super(nome, cpf);
         this.especialidade = especialidade;
         this.horarioDisponivel = horarioDisponivel;
     }

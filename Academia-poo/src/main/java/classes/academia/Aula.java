@@ -1,5 +1,7 @@
 package classes.academia;
 
+import atores.academia.Professor;
+
 public class Aula {
     private String id;
 

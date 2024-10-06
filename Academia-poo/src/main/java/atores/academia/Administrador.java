@@ -1,4 +1,4 @@
-package autenticacao.academia;
+package atores.academia;
 
 public class Administrador extends Funcionario {
 
