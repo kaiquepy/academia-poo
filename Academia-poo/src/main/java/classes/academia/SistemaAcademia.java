@@ -9,6 +9,14 @@ public class SistemaAcademia {
     private List<Despesa> despesas;
     private List<Receita> receitas;
 
+    public SistemaAcademia(List<Aluno> alunos, List<Professor> professores, List<Aula> aulas, List<Despesa> despesas, List<Receita> receitas) {
+        this.alunos = alunos;
+        this.professores = professores;
+        this.aulas = aulas;
+        this.despesas = despesas;
+        this.receitas = receitas;
+    }
+
     public List<Aluno> getAlunos() {
         return alunos;
     }

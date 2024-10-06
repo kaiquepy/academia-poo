@@ -4,6 +4,11 @@ public class Funcionario {
     private String usuario;
     private String senha;
 
+    public Funcionario(String usuario, String senha) {
+        this.usuario = usuario;
+        this.senha = senha;
+    }
+
     public String getUsuario() {
         return usuario;
     }

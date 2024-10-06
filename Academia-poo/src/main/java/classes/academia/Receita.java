@@ -5,6 +5,12 @@ public class Receita {
     private double valor;
     private String data;
 
+    public Receita(String tipo, double valor, String data) {
+        this.tipo = tipo;
+        this.valor = valor;
+        this.data = data;
+    }
+
     public String getTipo() {
         return tipo;
     }

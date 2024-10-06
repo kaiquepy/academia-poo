@@ -4,6 +4,11 @@ import java.util.List;
 
 public class GerenciamentoFinanceiro {
     private List<Receita> receitas;
+
+    public GerenciamentoFinanceiro(List<Receita> receitas, List<Despesa> despesas) {
+        this.receitas = receitas;
+        this.despesas = despesas;
+    }
     private List<Despesa> despesas;
 
     public List<Receita> getReceitas() {

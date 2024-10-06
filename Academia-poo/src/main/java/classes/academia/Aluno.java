@@ -3,6 +3,11 @@ package classes.academia;
 public class Aluno {
     private String plano;
     private double saldoDevedor;
+
+    public Aluno(String plano, double saldoDevedor) {
+        this.plano = plano;
+        this.saldoDevedor = saldoDevedor;
+    }
     
     public String getPlano() {
         return plano;

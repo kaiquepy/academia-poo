@@ -2,6 +2,14 @@ package classes.academia;
 
 public class Aula {
     private String id;
+
+    public Aula(String id, String nome, Professor professor, String horario, String vagasDisponiveis) {
+        this.id = id;
+        this.nome = nome;
+        this.professor = professor;
+        this.horario = horario;
+        this.vagasDisponiveis = vagasDisponiveis;
+    }
     private String nome;
     private Professor professor;
     private String horario;

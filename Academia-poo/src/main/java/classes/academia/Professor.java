@@ -6,6 +6,11 @@ public class Professor {
     private String especialidade;
     private List<String> horarioDisponivel;
 
+    public Professor(String especialidade, List<String> horarioDisponivel) {
+        this.especialidade = especialidade;
+        this.horarioDisponivel = horarioDisponivel;
+    }
+
     public String getEspecialidade() {
         return especialidade;
     }
