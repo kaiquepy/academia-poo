@@ -56,6 +56,7 @@ public class SistemaAcademia {
     public void setReceitas(List<Receita> receitas) {
         this.receitas = receitas;
     }
+    
 @Override
 public String toString() {
         return "SistemaAcademia [Alunos: " + alunos + 
